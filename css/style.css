@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: white;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+  }
+  header nav ul li {
+    margin-right: 20px; /* Add some space between list items */
+  }
+  header nav .mid-nav ul {
+    display: flex;
+  }
+  header nav .mid-nav ul li {
+    margin-right: 10px; /* Add some space between icons */
+  }
+
+
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-trigger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+/* styling second header 👇 */
+  .dropdown-second-header{
+    background-color: rgb(242, 236, 236);
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    /* padding-top: 2%; */
+  
+  }
+
+  .hide-header1{
+    display: flex;
+    gap: 7rem;
+    list-style: none;
+    display: none;
+    padding-top: 2%;
+  }
+ 
+  .hide-header2{
+    display: flex;
+    gap: 7rem;
+    list-style: none;
+    display: none;
+    padding-top: 2%;
+  }
+  .dropdown-header-shop li{
+    list-style: none;
+    padding: 2%;
+    color: rgb(40, 38, 38);
+  }
+/* styling second header 👆 */
+
+
+  img{
+    width: auto;
+    height: 150px;
+    
+  }
+
+  i{
+    cursor: pointer;
+  }
+
+  .product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 4%; 
+    padding-bottom: 6%; 
+  }
+
+  .product:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Apply box shadow on hover */
+  }
+  .counter{
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 4px;
+    font-size: 0.8rem;
+
+  }
+
